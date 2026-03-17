@@ -1,13 +1,13 @@
-Customer Churn Prediction
+# Customer Churn Prediction
 
 
 This project focuses on predicting customer churn for a telecom company using machine learning techniques. The goal is to identify customers who are likely to discontinue the service, enabling proactive retention strategies.
 
-Problem Statement
+# Problem Statement
 
 Customer churn significantly impacts business revenue. The objective is to build a predictive model that classifies whether a customer will churn based on demographic, service usage, and billing information.
 
-Dataset
+# Dataset
 
 The dataset contains customer-level information including:
 
@@ -19,7 +19,7 @@ Services subscribed (InternetService, Streaming services, etc.)
 
 Billing information (MonthlyCharges, TotalCharges)
 
-Methodology
+# Methodology
 
 Data Cleaning and Preprocessing
 
@@ -31,11 +31,11 @@ Model building using XGBoost Classifier
 
 Evaluation using classification metrics
 
-Model
+# Model
 
 Algorithm: XGBoost Classifier
 
-Key Parameters:
+**Key Parameters:**
 
 n_estimators = 400
 
@@ -47,7 +47,7 @@ subsample = 0.8
 
 colsample_bytree = 0.8
 
-Performance
+# Performance
 
 Training Accuracy: 0.88
 
@@ -63,22 +63,16 @@ F1 Score: 0.64
 
 The model demonstrates good generalization with controlled overfitting.
 
-Deployment
+# Deployment
 
 The trained model is deployed using Streamlit, allowing users to input customer details and receive real-time churn predictions.
 
 To run the application locally:
 
 streamlit run app.py
-Project Structure
-Customer_Churn_Prediction/
-│
-├── app.py
-├── churn_model.pkl
-├── notebook.ipynb
-├── requirements.txt
-└── README.md
-Key Highlights
+
+
+# Key Highlights
 
 End-to-end machine learning pipeline
 
@@ -88,7 +82,7 @@ Handled class imbalance effectively
 
 Deployed as an interactive web application
 
-Author
+# Author
 
-Yuvraj Singh
+**Yuvraj Singh**
 Machine Learning Enthusiast
